@@ -1,0 +1,74 @@
+.login-container {
+    max-width: 400px;
+    margin: 8% auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #b7c3e8;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333333;
+  }
+  
+  .input-group input[type='email'],
+  .input-group input[type='password'] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333333;
+    transition: border-color 0.3s;
+  }
+  
+  .input-group input[type='email']:focus,
+  .input-group input[type='password']:focus {
+    border-color: #007bff;
+  }
+  
+  .input-group.checkbox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-group.checkbox label {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #555555;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .submit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit {
+    background-color: #0056b3;
+  }
+  
